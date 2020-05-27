@@ -72,8 +72,8 @@ class Youdao():
 if __name__ == '__main__':
     while(True):
         try:
-            i=input("please input : ")
+            i=input("please input : ")     #输入一段中文
             youdao = Youdao(i)
-            print("translation result : ",youdao.fanyi())
+            print("translation result : ",youdao.fanyi())   #翻译成英文
         except:
             pass
